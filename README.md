@@ -1,6 +1,17 @@
 #  Third-degree Interpolating Natural Spline Function (INSF3) creator.
 #### Program draws INSF3 based on selected points on the coordinate axis.
 
-It's implemented in **Python** with the use of **plotly.express** library, created as part of a competition in classes on **Numerical Analysis**.
+It's implemented in **Python** using **plotly** and **tkinter** libraries.
 
-For the moment it draws functions for input that is in the source code, but in the future I plan to add the ability to select points on the axis with GUI.
+#### Controls:
+- left-click - create a new point
+- right-click - delete point if there is any point nearby
+
+- plot button creates a nifs3 graph based on the given points in the order of addition.
+
+#### Preview:
+
+<img width="600" alt="image" src="https://github.com/julgitt/INSF3-creator/assets/95649808/eb4e7544-0ff6-4a6c-8543-f6ab554c31bf">
+
+
+<img width="600" alt="image" src="https://github.com/julgitt/INSF3-creator/assets/95649808/e2e7952e-8cbd-46da-89fe-fabcd5f57ccf">
