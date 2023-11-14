@@ -11,7 +11,7 @@ It's implemented in **Python** using **plotly** and **tkinter** libraries.
 
 #### Preview:
 
-<img width="600" alt="image" src="https://github.com/julgitt/INSF3-creator/assets/95649808/eb4e7544-0ff6-4a6c-8543-f6ab554c31bf">
+![image](https://github.com/julgitt/INSF3-creator/assets/95649808/dcc8d8e2-5711-4940-ba0d-2e1563f3dbe9)
 
+![image](https://github.com/julgitt/INSF3-creator/assets/95649808/a8ff2604-0be7-4df5-bcaa-8f86939baee8)
 
-<img width="600" alt="image" src="https://github.com/julgitt/INSF3-creator/assets/95649808/e2e7952e-8cbd-46da-89fe-fabcd5f57ccf">
