@@ -62,18 +62,13 @@ def get_calc_nifs3_k(x: List[float], y: List[float],
                 h: List[float], m: List[float],
                 k: int) -> Callable[[float], float]:
     """Returns nifs3 function for x and y coordinates list, list of h, moments and k value."""
-    def calc_nifs3_k(u: float) -> float:
-        """Calculates nifs3 value for given x of type float"""
-        result = (1.0 / h[k]) * (
+    return (lambda u: (1.0 / h[k]) * (
             ((1.0 / 6.0) * m[k - 1] * (x[k] - u) ** 3) +
             ((1.0 / 6.0) * m[k] * (u - x[k - 1]) ** 3) +
             (y[k - 1] - ((1.0 / 6.0) * m[k - 1] * h[k] ** 2)) * (x[k] - u) +
             (y[k] - ((1.0 / 6.0) * m[k] * h[k] ** 2)) * (u - x[k - 1])
-        )
-        return result
-
-    return calc_nifs3_k
-
+        ))
+       
 
 def calc_nifs3(x: List[float], y: List[float]) -> tuple[List[float], List[float]]:
     """Calculate nifs3 for x and y coordinates list"""
